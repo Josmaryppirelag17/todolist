@@ -1,12 +1,79 @@
-# React + Vite
+# 📝 ToDo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación moderna de lista de tareas construida con React y Vite, que incluye una interfaz de usuario atractiva y animaciones de fondo.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Interfaz de usuario moderna y responsive
+- 🎨 Fondo animado interactivo
+- ✅ Gestión completa de tareas (Crear, Leer, Actualizar, Eliminar)
+- 💾 Persistencia de datos local
+- 🌈 Diseño atractivo y minimalista
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 6
+- FontAwesome para iconos
+- CSS personalizado para estilos y animaciones
+
+## 📋 Prerrequisitos
+
+- Node.js (versión recomendada: 18 o superior)
+- npm o yarn
+
+## 🔧 Instalación
+
+1. Clona el repositorio:
+```bash
+git clone [url-del-repositorio]
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+## 📁 Estructura del Proyecto
+
+```
+todolist/
+├── src/
+│   ├── components/
+│   │   ├── AnimatedBackground.jsx   # Componente de fondo animado
+│   │   ├── AnimatedBackground.css
+│   │   ├── ToDoList.jsx            # Componente principal de la lista
+│   │   └── ToDoList.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── reset.css
+├── public/
+├── index.html
+└── package.json
+```
+
+## 🚀 Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo
+- `npm run build`: Construye la aplicación para producción
+- `npm run preview`: Vista previa de la versión de producción
+- `npm run lint`: Ejecuta el linter para verificar el código
+
+## 🔍 Características Detalladas
+
+### Componente ToDoList
+- Gestión completa de tareas
+- Interfaz intuitiva para añadir, editar y eliminar tareas
+- Animaciones suaves en las interacciones
+- Persistencia de datos en localStorage
+
+### Componente AnimatedBackground
+- Fondo interactivo y dinámico
+- Animaciones fluidas
+- Diseño responsivo
