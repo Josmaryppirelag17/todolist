@@ -6,6 +6,9 @@ function App() {
   return (
     <div className="app">
       <ToDoList />
+            <footer className="footer">
+        <p>Josmary Pirela - Desarrolladora Web</p>
+      </footer>
     </div>
   )
 }
